@@ -19,7 +19,7 @@
           <div class="form-group">
             <label for="password" class="label-left">Password</label>
             <input type="password" id="password" name="password" v-model="password" placeholder="Enter your password"
-            aria-required="true" aria-describedby="password-error" required />
+            aria-required="true" aria-describedby="password-error" class="closed-eye" required />
           </div>
           <div class="forgot-password" aria-label="Forgot Password">
             <a>Forgot Password?</a>
@@ -199,6 +199,13 @@ export default {
   background-color: rgb(36, 36, 36);
   /* Set input background color to black */
   align-self: flex-start;
+}
+
+.closed-eye{
+  background-image: url("@/assets/closedeyes.png");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center; /* Adjust position as needed */
+  background-size: 15px 10px;
 }
 
 .label-left {
