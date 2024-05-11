@@ -86,7 +86,9 @@ export default {
       // Simulate delay for 2 seconds then hide overlay
       setTimeout(() => {
         this.showOverlay = false;
-      }, 1000);
+        this.email = ""; // Clear email input
+        this.password = ""; // Clear password input
+      }, 1500);
     },
     handleForgotPasswordClick() {
       alert("Forgot Password clicked!");
