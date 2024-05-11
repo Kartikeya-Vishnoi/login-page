@@ -1,4 +1,4 @@
-# Indee Login Page
+# IndeeTV-Login-Page-Assignment
 
 This project is a Vue.js-based login page developed as an assignment to assess frontend development skills, particularly in creating a responsive and user-friendly login screen.
 
